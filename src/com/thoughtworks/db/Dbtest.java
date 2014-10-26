@@ -12,7 +12,6 @@ public class Dbtest {
 //        itemDao.updateItem(item);
 //        itemDao.deleteItemByCode("ITEM000005");
         ItemIService  itemDao = new ItemDao();
-        System.out.print(itemDao.getItemById(1));
+        itemDao.deleteItemById(1);
     }
-
 }

@@ -9,7 +9,7 @@ public interface ItemIService {
 
     List<Item> getItems();
 
-    void deleteItemByCode(String barcode);
+    void deleteItemById(int id);
 
     void updateItem(Item item);
 

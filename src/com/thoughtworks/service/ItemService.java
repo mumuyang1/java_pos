@@ -20,8 +20,8 @@ public class ItemService implements ItemIService {
     }
 
     @Override
-    public void deleteItemByCode(String barcode) {
-        itemDao.deleteItemByCode(barcode);
+    public void deleteItemById(int id) {
+        itemDao.deleteItemById(id);
     }
 
     @Override

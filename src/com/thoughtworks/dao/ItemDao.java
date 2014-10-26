@@ -65,8 +65,8 @@ public class ItemDao implements ItemIService {
     }
 
     @Override
-    public void deleteItemByCode(String barcode){
-        String sql = "delete from items where barcode='"+barcode+"'";
+    public void deleteItemById(int id){
+        String sql = "delete from items where id ='"+id+"'";
         Connection conn = dbUtil.getConnection();
         Statement stmt = null;
         try {

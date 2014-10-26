@@ -4,9 +4,6 @@ import com.thoughtworks.vo.Item;
 
 import java.sql.*;
 
-/**
- * Created by liyanzi on 14-10-25.
- */
 public class Dbtest {
 
     String driveName = "com.mysql.jdbc.Driver";
@@ -19,13 +16,6 @@ public class Dbtest {
     ResultSet rs = null;
 
 
-//    public static void main(String[] args){
-//        Dbtest dbtest = new Dbtest();
-////        Item item = new Item("ITEM000004","电池","个",1.0);
-////        Item item1 = new Item("ITEM000006","电池","个",1.0);
-////        dbtest.updateItem(item);
-//        dbtest.deleteItemByCode("ITEM000006");
-//    }
 //    使用JDBC操作Mysql数据库
 
     /*

@@ -5,9 +5,6 @@ import com.thoughtworks.vo.Item;
 
 import java.sql.*;
 
-/**
- * Created by Administrator on 2014/10/25.
- */
 public class ItemDao {
 
     private DbUtil dbUtil = new DbUtil();
@@ -49,7 +46,6 @@ public class ItemDao {
         Statement stmt = null;
         try {
             stmt = conn.createStatement();
-            // DML(数据操纵语言insert、update、detele)操作使用executeUpdate()
             int result = stmt.executeUpdate(sql);
             if (result>0){
                 System.out.println("删除成功");

@@ -1,8 +1,5 @@
 package com.thoughtworks.vo;
 
-/**
- * Created by liyanzi on 14-10-25.
- */
 public class Item {
     private String barcode;
     private String name;

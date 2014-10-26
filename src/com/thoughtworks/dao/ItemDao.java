@@ -1,5 +1,7 @@
 package com.thoughtworks.dao;
 
+import com.thoughtworks.service.ItemIService;
+import com.thoughtworks.service.ItemService;
 import com.thoughtworks.util.DbUtil;
 import com.thoughtworks.vo.Item;
 
@@ -12,7 +14,7 @@ public class ItemDao implements ItemIDao {
     private DbUtil dbUtil = new DbUtil();
 
     public static void main(String[] args){
-        ItemDao itemDao = new ItemDao();
+        ItemIService itemDao = new ItemService();
 //        Item item = new Item("ITEM000002","香蕉","斤",10.0);
 //        itemDao.getItem();
 //        itemDao.updateItem(item);

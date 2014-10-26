@@ -17,10 +17,10 @@ public class ItemDao implements ItemIService {
 
 
     @Override
-    public Item getItemBycode(String barcode){
+    public Item getItemById(int id){
         Item item = null;
 
-        String sql = "SELECT * FROM items WHERE barcode = '"+barcode+"'";
+        String sql = "SELECT * FROM items WHERE id = '"+id+"'";
         Connection conn = dbUtil.getConnection();
         Statement stmt = null;
         ResultSet rs = null;

@@ -10,8 +10,8 @@ public class ItemService implements ItemIService {
     private ItemDao itemDao = new ItemDao();
 
     @Override
-    public Item getItemBycode(String barcode) {
-        return itemDao.getItemBycode(barcode);
+    public Item getItemById(int id) {
+        return itemDao.getItemById(id);
     }
 
     @Override

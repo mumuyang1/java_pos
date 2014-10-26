@@ -5,7 +5,7 @@ import com.thoughtworks.vo.Item;
 import java.util.List;
 
 public interface ItemIDao {
-    Item getItemBycode(String barcode);
+    Item getItemById(int id);
 
     List<Item> getItems();
 

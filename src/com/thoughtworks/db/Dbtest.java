@@ -1,7 +1,7 @@
 package com.thoughtworks.db;
 
 import com.thoughtworks.dao.ItemDao;
-import com.thoughtworks.vo.Item;
+import com.thoughtworks.service.ItemIService;
 
 public class Dbtest {
 
@@ -11,8 +11,8 @@ public class Dbtest {
 //        itemDao.getItem();
 //        itemDao.updateItem(item);
 //        itemDao.deleteItemByCode("ITEM000005");
-        ItemDao itemDao = new ItemDao();
-        itemDao.deleteItemByCode("ITEM000002");
+        ItemIService  itemDao = new ItemDao();
+        System.out.print(itemDao.getItemById(1));
     }
 
 }

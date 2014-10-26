@@ -4,6 +4,8 @@ import com.thoughtworks.util.DbUtil;
 import com.thoughtworks.vo.Item;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ItemDao {
 
@@ -15,7 +17,7 @@ public class ItemDao {
 //        itemDao.getItem();
 //        itemDao.updateItem(item);
 //        itemDao.deleteItemByCode("ITEM000005");
-        System.out.print(itemDao.getItemBycode("ITEM000001"));
+        System.out.print(itemDao.getItems());
     }
 
     public Item getItemBycode(String barcode){
@@ -28,8 +30,8 @@ public class ItemDao {
         try {
             stmt = conn.createStatement();
             rs = stmt.executeQuery(sql);
-            rs.next();
-         
+            rs.next();//将迭代器往下一个，返回true或false
+
             item = new Item(rs.getString("barcode"),rs.getString("name"),rs.getString("unit"),rs.getDouble("price"));
             rs.close();
             stmt.close();
@@ -38,6 +40,30 @@ public class ItemDao {
             e.printStackTrace();
         }
         return item;
+    }
+
+    public List<Item> getItems(){
+        List<Item> items = new ArrayList<Item>();
+
+        String sql = "SELECT * FROM items";
+        Connection conn = dbUtil.getConnection();
+        Statement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            stmt = conn.createStatement();
+            rs = stmt.executeQuery(sql);
+            while (rs.next()){
+              Item  item = new Item(rs.getString("barcode"),rs.getString("name"),rs.getString("unit"),rs.getDouble("price"));
+                items.add(item);
+            }
+            rs.close();
+            stmt.close();
+            dbUtil.closeConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return items;
     }
 
     public void deleteItemByCode(String barcode){

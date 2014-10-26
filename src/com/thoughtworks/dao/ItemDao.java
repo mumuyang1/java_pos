@@ -1,26 +1,20 @@
 package com.thoughtworks.dao;
 
 import com.thoughtworks.service.ItemIService;
-import com.thoughtworks.service.ItemService;
 import com.thoughtworks.util.DbUtil;
 import com.thoughtworks.vo.Item;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ItemDao implements ItemIDao {
+public class ItemDao implements ItemIService {
 
     private DbUtil dbUtil = new DbUtil();
 
-    public static void main(String[] args){
-        ItemIService itemDao = new ItemService();
-//        Item item = new Item("ITEM000002","香蕉","斤",10.0);
-//        itemDao.getItem();
-//        itemDao.updateItem(item);
-//        itemDao.deleteItemByCode("ITEM000005");
-        System.out.print(itemDao.getItems());
-    }
 
     @Override
     public Item getItemBycode(String barcode){
@@ -116,10 +110,11 @@ public class ItemDao implements ItemIDao {
 
     @Override
     public void insertItem(Item item){
-        String sql = "insert into items values('"+item.getBarcode()+"','"
-                +item.getName()+"','"+item.getName()+"',"
-                +item.getPrice()+")";
+        String sql = "insert into items values(null,'"+item.getBarcode()+"','"
+                +item.getName()+"',"+item.getPrice()+",'"
+                +item.getUnit()+"')";
         Connection conn = dbUtil.getConnection();
+        System.out.println(sql);
         Statement stmt = null;
         try {
             stmt = conn.createStatement();

@@ -1,10 +1,14 @@
 package com.thoughtworks.vo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Item {
     private String barcode;
     private String name;
     private String unit;
     private double price;
+    private List<Promotion> promotionList = new ArrayList<Promotion>();
 
     public Item(){
 
@@ -15,6 +19,7 @@ public class Item {
         this.name = name;
         this.unit = unit;
         this.price = price;
+        this.promotionList = promotionList;
     }
 
     public String getName() {

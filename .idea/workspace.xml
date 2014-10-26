@@ -23,14 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DbUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/util/DbUtil.java">
+      <file leaf-file-name="ItemDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="2556">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
-                <marker date="1414230797061" expanded="true" signature="485:504" placeholder="SELECT * FRO..items..." />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1221#1227#0" expanded="true" />
+                <marker date="1414301884057" expanded="true" signature="514:563" placeholder="SELECT * FRO..items..." />
+                <marker date="1414301884057" expanded="true" signature="1254:1273" placeholder="SELECT * FRO..items..." />
+                <marker date="1414301884057" expanded="true" signature="1970:2015" placeholder="delete from ..." />
+                <marker date="1414301884057" expanded="true" signature="2591:2758" placeholder="update items..." />
+                <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+                <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+                <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+                <marker date="1414301884057" expanded="true" signature="3334:3446" placeholder="insert into ..." />
+                <marker date="1414301884057" expanded="true" signature="3334:3484" placeholder="insert into ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pet.items" pinned="false" current="true" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/3be13117/504a90b4-77a8-42c3-9fdc-1600abdc88d9/pet..items">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="234">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,72 +61,8 @@
       <file leaf-file-name="Dbtest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/db/Dbtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2484">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1414286705839" expanded="true" signature="567:586" placeholder="SELECT * FRO..items..." />
-                <marker date="1414286705839" expanded="true" signature="1433:1561" placeholder="INSERT INTO ..." />
-                <marker date="1414286705839" expanded="true" signature="2294:2341" placeholder="DELETE FROM ..." />
-                <marker date="1414286705839" expanded="true" signature="3063:3218" placeholder="update items..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/vo/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-              <folding>
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemDao.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9055118" vertical-offset="33" max-vertical-offset="1458">
-              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-              <folding>
-                <element signature="e#1490#1496#0" expanded="true" />
-                <element signature="method#deleteItemByCode#0;class#ItemDao#0" expanded="false" />
-                <element signature="method#updateItem#0;class#ItemDao#0" expanded="false" />
-                <element signature="method#insertItem#0;class#ItemDao#0" expanded="false" />
-                <marker date="1414289841786" expanded="false" signature="783:820" placeholder="SELECT * FRO..items..." />
-                <marker date="1414289841786" expanded="true" signature="783:832" placeholder="SELECT * FRO..items..." />
-                <marker date="1414289841786" expanded="true" signature="1523:1542" placeholder="SELECT * FRO..items..." />
-                <marker date="1414289841786" expanded="true" signature="2239:2284" placeholder="delete from ..." />
-                <marker date="1414289841786" expanded="true" signature="2860:3027" placeholder="update items..." />
-                <marker date="1414289841786" expanded="true" signature="3603:3748" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemIService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemIService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,31 +73,33 @@
       <file leaf-file-name="ItemService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemIDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemIDao.java">
+      <file leaf-file-name="ItemIService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemIService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,13 +117,14 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/db/com/thoughtworks/vo/Item.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/com/thoughtworks/util/DbUtil.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/util/DbUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/db/Dbtest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/dao/ItemIDao.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/vo/Promotion.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/vo/Item.java" />
         <option value="dbtable:/3be13117/504a90b4-77a8-42c3-9fdc-1600abdc88d9/pet..items" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/dao/ItemIDao.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/service/ItemIService.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/service/ItemService.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/dao/ItemDao.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/db/Dbtest.java" />
       </list>
     </option>
   </component>
@@ -354,13 +316,14 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="databases&#9;PSI&#9;JAVA://com.mysql.jdbc.DatabaseMetaDataUsingInfoSchema" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.thoughtworks.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ItemDao">
+  <component name="RunManager" selected="Application.Dbtest">
     <configuration default="false" name="Dbtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -637,8 +600,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ItemDao" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Dbtest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Dbtest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ItemDao" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -657,12 +620,12 @@
       <updated>1414219112119</updated>
       <workItem from="1414219115196" duration="10244000" />
       <workItem from="1414230423825" duration="3737000" />
-      <workItem from="1414285859856" duration="3917000" />
+      <workItem from="1414285859856" duration="16208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17898000" />
+    <option name="totallyTimeSpent" value="30189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
@@ -678,13 +641,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31240544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -727,7 +690,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="702">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1414230797061" expanded="true" signature="485:504" placeholder="SELECT * FRO..items..." />
+            <marker date="1414230797061" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..items..." />
           </folding>
         </state>
       </provider>
@@ -738,10 +701,6 @@
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1414286705839" expanded="true" signature="567:586" placeholder="SELECT * FRO..items..." />
-            <marker date="1414286705839" expanded="true" signature="1433:1561" placeholder="INSERT INTO ..." />
-            <marker date="1414286705839" expanded="true" signature="2294:2341" placeholder="DELETE FROM ..." />
-            <marker date="1414286705839" expanded="true" signature="3063:3218" placeholder="update items..." />
           </folding>
         </state>
       </provider>
@@ -751,16 +710,17 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2124">
           <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="e#1490#1496#0" expanded="true" />
-            <element signature="method#deleteItemByCode#0;class#ItemDao#0" expanded="false" />
-            <element signature="method#updateItem#0;class#ItemDao#0" expanded="false" />
-            <element signature="method#insertItem#0;class#ItemDao#0" expanded="false" />
-            <marker date="1414289841786" expanded="false" signature="783:820" placeholder="SELECT * FRO..items..." />
-            <marker date="1414289841786" expanded="true" signature="783:832" placeholder="SELECT * FRO..items..." />
-            <marker date="1414289841786" expanded="true" signature="1523:1542" placeholder="SELECT * FRO..items..." />
-            <marker date="1414289841786" expanded="true" signature="2239:2284" placeholder="delete from ..." />
-            <marker date="1414289841786" expanded="true" signature="2860:3027" placeholder="update items..." />
-            <marker date="1414289841786" expanded="true" signature="3603:3748" placeholder="insert into ..." />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1221#1227#0" expanded="true" />
+            <marker date="1414301884057" expanded="true" signature="514:563" placeholder="SELECT * FRO..items..." />
+            <marker date="1414301884057" expanded="true" signature="1254:1273" placeholder="SELECT * FRO..items..." />
+            <marker date="1414301884057" expanded="true" signature="1970:2015" placeholder="delete from ..." />
+            <marker date="1414301884057" expanded="true" signature="2591:2758" placeholder="update items..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3446" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3484" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -770,7 +730,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="702">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1414230797061" expanded="true" signature="485:504" placeholder="SELECT * FRO..items..." />
+            <marker date="1414230797061" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..items..." />
           </folding>
         </state>
       </provider>
@@ -781,10 +741,6 @@
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1414286705839" expanded="true" signature="567:586" placeholder="SELECT * FRO..items..." />
-            <marker date="1414286705839" expanded="true" signature="1433:1561" placeholder="INSERT INTO ..." />
-            <marker date="1414286705839" expanded="true" signature="2294:2341" placeholder="DELETE FROM ..." />
-            <marker date="1414286705839" expanded="true" signature="3063:3218" placeholder="update items..." />
           </folding>
         </state>
       </provider>
@@ -794,22 +750,24 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1116">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#274#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
             <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -821,37 +779,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/mysql-connector-java-5.1.20-bin.jar!/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26946107" vertical-offset="0" max-vertical-offset="864">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemIDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/vo/Promotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/util/DbUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <marker date="1414230797061" expanded="true" signature="485:504" placeholder="SELECT * FRO..items..." />
+            <marker date="1414230797061" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..items..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/vo/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="918">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
           <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#274#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
             <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemIService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2556">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1221#1227#0" expanded="true" />
+            <marker date="1414301884057" expanded="true" signature="514:563" placeholder="SELECT * FRO..items..." />
+            <marker date="1414301884057" expanded="true" signature="1254:1273" placeholder="SELECT * FRO..items..." />
+            <marker date="1414301884057" expanded="true" signature="1970:2015" placeholder="delete from ..." />
+            <marker date="1414301884057" expanded="true" signature="2591:2758" placeholder="update items..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3359" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3446" placeholder="insert into ..." />
+            <marker date="1414301884057" expanded="true" signature="3334:3484" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/db/Dbtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -861,80 +905,9 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="234">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/service/ItemIService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemIDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/db/Dbtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="2484">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1414286705839" expanded="true" signature="567:586" placeholder="SELECT * FRO..items..." />
-            <marker date="1414286705839" expanded="true" signature="1433:1561" placeholder="INSERT INTO ..." />
-            <marker date="1414286705839" expanded="true" signature="2294:2341" placeholder="DELETE FROM ..." />
-            <marker date="1414286705839" expanded="true" signature="3063:3218" placeholder="update items..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/dao/ItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9055118" vertical-offset="33" max-vertical-offset="1458">
-          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-          <folding>
-            <element signature="e#1490#1496#0" expanded="true" />
-            <element signature="method#deleteItemByCode#0;class#ItemDao#0" expanded="false" />
-            <element signature="method#updateItem#0;class#ItemDao#0" expanded="false" />
-            <element signature="method#insertItem#0;class#ItemDao#0" expanded="false" />
-            <marker date="1414289841786" expanded="false" signature="783:820" placeholder="SELECT * FRO..items..." />
-            <marker date="1414289841786" expanded="true" signature="783:832" placeholder="SELECT * FRO..items..." />
-            <marker date="1414289841786" expanded="true" signature="1523:1542" placeholder="SELECT * FRO..items..." />
-            <marker date="1414289841786" expanded="true" signature="2239:2284" placeholder="delete from ..." />
-            <marker date="1414289841786" expanded="true" signature="2860:3027" placeholder="update items..." />
-            <marker date="1414289841786" expanded="true" signature="3603:3748" placeholder="insert into ..." />
-          </folding>
         </state>
       </provider>
     </entry>

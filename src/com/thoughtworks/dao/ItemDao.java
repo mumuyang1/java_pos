@@ -11,15 +11,17 @@ public class ItemDao {
 
     public static void main(String[] args){
         ItemDao itemDao = new ItemDao();
-        Item item = new Item("ITEM000002","香蕉","斤",10.0);
+//        Item item = new Item("ITEM000002","香蕉","斤",10.0);
 //        itemDao.getItem();
 //        itemDao.updateItem(item);
 //        itemDao.deleteItemByCode("ITEM000005");
-        itemDao.insertItem(item);
+        System.out.print(itemDao.getItemBycode("ITEM000001"));
     }
 
-    public void getItem(){
-        String sql = "SELECT * FROM items";
+    public Item getItemBycode(String barcode){
+        Item item = null;
+
+        String sql = "SELECT * FROM items WHERE barcode = '"+barcode+"'";
         Connection conn = dbUtil.getConnection();
         Statement stmt = null;
         ResultSet rs = null;
@@ -27,17 +29,15 @@ public class ItemDao {
             stmt = conn.createStatement();
             rs = stmt.executeQuery(sql);
             rs.next();
-            String barcode = rs.getString("barcode");
-            String name = rs.getString("name");
-            String unit = rs.getString("unit");
-            double price = rs.getDouble("price");
-            System.out.println("条形码："+barcode+"，名称:"+name+"，数量："+unit+"，单价："+price+"(元)");
+         
+            item = new Item(rs.getString("barcode"),rs.getString("name"),rs.getString("unit"),rs.getDouble("price"));
             rs.close();
             stmt.close();
             dbUtil.closeConnection();
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return item;
     }
 
     public void deleteItemByCode(String barcode){

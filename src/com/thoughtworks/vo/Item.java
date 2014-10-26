@@ -49,5 +49,13 @@ public class Item {
         this.price = price;
     }
 
-
+    @Override
+    public String toString() {
+        return "Item{" +
+                "barcode='" + barcode + '\'' +
+                ", name='" + name + '\'' +
+                ", unit='" + unit + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ItemDao {
+public class ItemDao implements ItemIDao {
 
     private DbUtil dbUtil = new DbUtil();
 
@@ -20,6 +20,7 @@ public class ItemDao {
         System.out.print(itemDao.getItems());
     }
 
+    @Override
     public Item getItemBycode(String barcode){
         Item item = null;
 
@@ -42,6 +43,7 @@ public class ItemDao {
         return item;
     }
 
+    @Override
     public List<Item> getItems(){
         List<Item> items = new ArrayList<Item>();
 
@@ -66,6 +68,7 @@ public class ItemDao {
         return items;
     }
 
+    @Override
     public void deleteItemByCode(String barcode){
         String sql = "delete from items where barcode='"+barcode+"'";
         Connection conn = dbUtil.getConnection();
@@ -86,6 +89,7 @@ public class ItemDao {
         }
     }
 
+    @Override
     public void updateItem(Item item){
         String sql = "update items set name='"+item.getName()+
                 "',unit ='"+item.getName()+"',price="+item.getPrice()+
@@ -108,6 +112,7 @@ public class ItemDao {
         }
     }
 
+    @Override
     public void insertItem(Item item){
         String sql = "insert into items values('"+item.getBarcode()+"','"
                 +item.getName()+"','"+item.getName()+"',"
